@@ -37,7 +37,7 @@ namespace ObjectOrientationAbusers
             CustomStack stack1 = new CustomStack();
             stack1.push("item1");
             stack1.RemoveAt(10); //não pode fazer isso
-            //CustomStackOk stack2 = new CustomStackOk();
+            //CustomStackOk stack2 = new CustomStackOk(); //Replace Inheritance with Delegation
             //stack2.push("item1");
             //stack2.RemoveAt(10); //não existe
 
